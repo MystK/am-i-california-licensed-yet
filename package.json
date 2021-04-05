@@ -1,0 +1,28 @@
+{
+  "name": "am-i-california-licensed-yet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-reload": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MystK/am-i-california-licensed-yet.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/MystK/am-i-california-licensed-yet/issues"
+  },
+  "homepage": "https://github.com/MystK/am-i-california-licensed-yet#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "puppeteer": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
